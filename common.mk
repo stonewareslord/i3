@@ -3,7 +3,7 @@ DEBUG=1
 INSTALL=install
 LN=ln
 ifndef PREFIX
-  PREFIX=/usr
+  PREFIX=/usr/local
 endif
 ifndef SYSCONFDIR
   ifeq ($(PREFIX),/usr)
